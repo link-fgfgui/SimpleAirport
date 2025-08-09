@@ -78,6 +78,7 @@ public class ConfigStickItem extends Item {
     public static void onItemToss(ItemTossEvent event) {
         ItemEntity entity = event.getEntity();
         ItemStack is=entity.getItem();
+        if (is.getItem() != SimpleAirport.CONFIG_STICK_ITEM.get())return;
         Player player = event.getPlayer();
         CoreBlockEntity cbentity = getEntity(is,player,null,player.level());
         is.setCount(0);
