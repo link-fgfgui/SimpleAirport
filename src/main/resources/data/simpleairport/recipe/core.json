@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "   ",
+    "ABA",
+    "DCD"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:acacia_planks"
+    },
+    "B": {
+      "item": "minecraft:stripped_acacia_log"
+    },
+    "C": {
+      "tag": "c:storage_blocks/iron"
+    },
+    "D": {
+      "tag": "c:rods/wooden"
+    }
+  },
+  "result": {
+    "id": "simpleairport:core",
+    "count": 1
+  },
+  "show_notification": false
+}

@@ -1,0 +1,8 @@
+{
+  "block.simpleairport.core": "Airport Core",
+  "item.simpleairport.config_stick": "Config Stick",
+  "simpleairport.actionbar.core_not_found": "Airport Core Not Found!",
+  "simpleairport.actionbar.add_a_apron": "Added a Apron!",
+  "simpleairport.actionbar.remove_a_apron": "Removed a Apron!",
+  "simpleairport.actionbar.set_a_runway": "Set a RWY! (%d, %d, %d)"
+}
