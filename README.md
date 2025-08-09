@@ -1,25 +1,17 @@
+# SimpleAirport
+This mod provides a simple way to manage aircraft entities.
 
-Installation information
-=======
+1. **Place the `Airport Core` block** on the ground.  
+   ![recipe](img/core_recipe.png)  
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+2. **Obtain a `Config Stick`** by Shift + Right Clicking the `Airport Core`.  
+   ![Config Stick](img/1.png)  
+   - Right Click a block with the `Config Stick` to mark it as an **Apron**.  
+   - Hold the stick in your **off-hand** and Right Click a block to remove its Apron designation.  
+   - Drop the stick to set the block beneath your position as a **Runway**.  
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+3. **Move your aircraft** (with the engine turned off) onto a runway block. If there is an available Apron, the aircraft will automatically be teleported there.  
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+4. **Start the aircraft’s engine** while it is in an Apron, and it will automatically be teleported to the runway.  
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
-
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+https://github.com/user-attachments/assets/d6f0107c-0a4a-496c-ae69-15ae2de95f97
